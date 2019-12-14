@@ -6,7 +6,14 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "pod": "cd ios && pod install",
+    "gradle:clean": "cd android && ./gradlew clean",
+    "an:release": "yarn gradle:clean && cd android && ./gradlew assembleRelease",
+    "an:installRelease": "yarn gradle:clean && cd android && ./gradlew installRelease",
+    "an:genkeypair": "keytool -genkeypair -v -keystore my-release-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000",
+    "an:key-debug": "keytool -list -v -keystore ~/.android/debug.keystore",
+    "an:key-release": "keytool -v -list -keystore ./android/app/my-release-key.keystore"
   },
   "dependencies": {
     "mobx": "^5.15.0",
