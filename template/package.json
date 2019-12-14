@@ -9,6 +9,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "mobx": "^5.15.0",
+    "mobx-react": "^6.1.4",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-config-reader": "^4.0.2"
@@ -21,6 +23,7 @@
     "@types/react-native": "^0.60.22",
     "@types/react-test-renderer": "16.9.0",
     "babel-jest": "^24.9.0",
+    "babel-preset-mobx": "^2.0.0",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
     "react-test-renderer": "16.9.0",
