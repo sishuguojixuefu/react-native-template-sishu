@@ -8,7 +8,7 @@
  * @format
  */
 
-import React, { useEffect} from 'react'
+import React, { useEffect } from 'react'
 import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar } from 'react-native'
 import SplashScreen from 'react-native-splash-screen'
 
