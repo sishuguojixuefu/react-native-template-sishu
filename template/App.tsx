@@ -8,8 +8,9 @@
  * @format
  */
 
-import React from 'react'
+import React, { useEffect} from 'react'
 import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar } from 'react-native'
+import SplashScreen from 'react-native-splash-screen'
 
 import {
   Header,
@@ -21,6 +22,11 @@ import {
 
 const App = () => {
   const usingHermes = typeof HermesInternal === 'object' && HermesInternal !== null
+
+  useEffect(() => {
+    SplashScreen.hide()
+  }, [])
+
   return (
     <>
       <StatusBar barStyle="dark-content" />
