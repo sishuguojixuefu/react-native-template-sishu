@@ -5,7 +5,7 @@
   <key>BUILD_NAME</key>
   <string>Hello App Display Name</string>
   <key>BUILD_TIME</key>
-	<string />
+	<string></string>
 	<key>BUILD_TYPE</key>
 	<string>$(CONFIGURATION)</string>
 	<key>CFBundleDevelopmentRegion</key>
