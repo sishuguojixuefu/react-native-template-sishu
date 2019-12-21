@@ -13,9 +13,9 @@
     "an:installRelease": "yarn gradle:clean && cd android && ./gradlew installRelease",
     "an:releaseStaging": "yarn gradle:clean && cd android && ./gradlew assembleReleaseStaging",
     "an:installReleaseStaging": "yarn gradle:clean && cd android && ./gradlew installReleaseStaging",
-    "an:genkeypair": "keytool -genkeypair -v -keystore my-release-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000",
-    "an:key-debug": "keytool -list -v -keystore ~/.android/debug.keystore",
-    "an:key-release": "keytool -v -list -keystore ./android/app/my-release-key.keystore"
+    "an:genkeypair": "keytool -genkeypair -v -keystore release.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000",
+    "an:key-debug": "keytool -list -v -keystore ./android/app/debug.keystore",
+    "an:key-release": "keytool -v -list -keystore ./android/app/release.keystore"
   },
   "dependencies": {
     "mobx": "^5.15.0",
