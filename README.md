@@ -10,10 +10,11 @@
 
 - 无缝集成到 [React Native CLI](https://github.com/react-native-community/cli) 中！✨
 - 与默认的 React Native 模板一致
-- 优雅地集成 axios、mobx、react-navigation
-- 使用一个有经验的项目目录结构
-- 使用一个有经验的 VSCode 配置
+- 优雅地集成 axios、mobx、react-navigation 等常用组件
+- 默认已配置好 react-native-splash-screen
 - 优雅地声明全局变量（通过定义命名空间）
+
+> 更多信息请查询 [建模历程](./docs/建模历程.md)
 
 ## :arrow_forward: Usage
 
