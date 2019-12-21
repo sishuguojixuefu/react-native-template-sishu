@@ -31,6 +31,11 @@ Further information can be found here: https://github.com/react-native-community
 npx react-native init MyApp --template react-native-template-sishu
 ```
 
+## 镜像
+
+- [Homebrew 镜像使用帮助](https://github.com/youngjuning/youngjuning.github.io/issues/214)
+- [CocoaPods 镜像使用帮助](https://mirror.tuna.tsinghua.edu.cn/help/CocoaPods/)
+
 ## :computer: Contributing
 
 Contributions are very welcome. Please check out the [contributing document](CONTRIBUTING.md).
