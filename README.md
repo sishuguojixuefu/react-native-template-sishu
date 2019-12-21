@@ -13,6 +13,7 @@
 - 优雅地集成 axios、mobx、react-navigation 等常用组件
 - 默认已配置好 react-native-splash-screen
 - 优雅地声明全局变量（通过定义命名空间）
+- 成熟的 eslint、prettier、husky、lint-staged 集成方案
 
 > 更多信息请查询 [建模历程](./docs/建模历程.md)
 
