@@ -48,6 +48,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-flow-strip-types": "^7.7.4",
     "@babel/runtime": "^7.6.2",
     "@sishuguojixuefu/eslint-config": "^0.5.6",
     "@types/jest": "^24.0.18",
