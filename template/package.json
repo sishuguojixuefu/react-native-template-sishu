@@ -18,6 +18,7 @@
     "an:key-release": "keytool -v -list -keystore ./android/app/release.keystore"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "2.0.0-rc.o",
     "mobx": "^5.15.0",
     "mobx-react": "^6.1.4",
     "react": "16.9.0",
@@ -41,6 +42,7 @@
     "react-navigation": "^4.0.10",
     "react-navigation-backhandler": "^1.3.2",
     "react-navigation-header-buttons": "^3.0.4",
+    "react-navigation-stack": "^1.10.3",
     "react-navigation-transitions": "^1.0.12",
     "rn-fetch-blob": "^0.11.2"
   },
