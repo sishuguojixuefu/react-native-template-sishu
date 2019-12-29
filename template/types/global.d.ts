@@ -1,2 +1,1 @@
-interface Global {}
-declare const global: Global
+declare const global: {}
