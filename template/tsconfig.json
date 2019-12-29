@@ -57,6 +57,6 @@
     "resolveJsonModule": true             /* Allows for importing, extracting types from and generating .json files */
   },
   "exclude": [
-    "node_modules", "babel.config.js", "metro.config.js", "jest.config.js"
+    "node_modules", "index.js", "babel.config.js", "metro.config.js", "jest.config.js"
   ]
 }
