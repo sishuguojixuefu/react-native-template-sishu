@@ -55,6 +55,7 @@
     "@types/react-native": "^0.60.22",
     "@types/react-test-renderer": "16.9.0",
     "babel-jest": "^24.9.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "babel-preset-mobx": "^2.0.0",
     "husky": "^3.1.0",
     "jest": "^24.9.0",
