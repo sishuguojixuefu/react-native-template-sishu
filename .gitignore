@@ -1,3 +1,7 @@
 node_modules/
 .vscode/
 .DS_Store
+*.lock
+contents.xcworkspacedata
+IDEWorkspaceChecks.plist
+UserInterfaceState.xcuserstate
