@@ -4,7 +4,4 @@ module.exports = {
   env: {
     'react-native/react-native': true,
   },
-  globals: {
-    HermesInternal: false
-  }
 }

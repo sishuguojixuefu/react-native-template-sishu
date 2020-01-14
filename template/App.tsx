@@ -20,9 +20,9 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen'
 
-const App = () => {
-  const usingHermes = typeof HermesInternal === 'object' && HermesInternal !== null
+declare var global: { HermesInternal: null | {} };
 
+const App = () => {
   useEffect(() => {
     SplashScreen.hide()
   }, [])
@@ -33,7 +33,7 @@ const App = () => {
       <SafeAreaView>
         <ScrollView contentInsetAdjustmentBehavior="automatic" style={styles.scrollView}>
           <Header />
-          {!usingHermes ? null : (
+          {!global.HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
@@ -42,7 +42,8 @@ const App = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.tsx</Text> to change this screen and then come back to see your
+                Edit <Text style={styles.highlight}>App.tsx</Text> to change
+                this screen and then come back to see your
                 edits.
               </Text>
             </View>
