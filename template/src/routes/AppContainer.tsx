@@ -3,11 +3,11 @@ import { NavigationNativeContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import WelcomeScreen from '../screens/WelcomeScreen'
 
-type RootStackParamsList = {
+export type RootStackParamList = {
   WelcomeScreen: undefined
 }
 
-const RootStack = createStackNavigator<RootStackParamsList>()
+const RootStack = createStackNavigator<RootStackParamList>()
 
 export default () => {
   return (
