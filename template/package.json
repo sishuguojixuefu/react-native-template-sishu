@@ -87,6 +87,20 @@
       "node"
     ]
   },
+  "eslintConfig": {
+    "extends": [
+      "@sishuguojixuefu"
+    ],
+    "env": {
+      "react-native/react-native": true,
+    }
+  },
+  "eslintIgnore": [
+    "!.eslintrc.js",
+    "!.prettierrc.js",
+    "__tests__/App-test.tsx"
+  ],
+  "prettier": "@sishuguojixuefu/eslint-config/.prettierrc.js",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
