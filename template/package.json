@@ -92,7 +92,7 @@
       "@sishuguojixuefu"
     ],
     "env": {
-      "react-native/react-native": true,
+      "react-native/react-native": true
     }
   },
   "eslintIgnore": [
